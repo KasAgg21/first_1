@@ -4,6 +4,7 @@ import 'package:first_1/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:first_1/pages/home_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:iconsax/iconsax.dart';
 
 void main()
 {
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
           fontFamily: GoogleFonts.cabin().fontFamily),
       darkTheme: ThemeData(
           brightness: Brightness.dark),
-    initialRoute: "/login",
+    debugShowCheckedModeBanner: false,
+    initialRoute: MyRoutes.homeRoute,
     routes: {
         "/" : (context)=> LoginPage(),
       MyRoutes.homeRoute: (context)=> HomePage(),
