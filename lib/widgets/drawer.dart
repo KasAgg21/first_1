@@ -37,7 +37,7 @@ class MyDrawer extends StatelessWidget {
             leading: Icon(CupertinoIcons.alarm,
               color: Colors.black,
             ),
-            title: Text("Main Gate",
+            title: Text("Tourture Chamber",
               textScaleFactor: 1.2,
               style: TextStyle(
                 color: Colors.black,
@@ -48,7 +48,7 @@ class MyDrawer extends StatelessWidget {
               CupertinoIcons.app_badge_fill,
               color: Colors.black,
             ),
-            title: Text("Main Gate",
+            title: Text("Audience Room",
               textScaleFactor: 1.2,
               style: TextStyle(
                 color: Colors.black,
