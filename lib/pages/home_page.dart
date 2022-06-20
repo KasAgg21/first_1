@@ -10,7 +10,13 @@ class HomePage extends StatelessWidget {
     final String name = "Kashish";
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("Anos Castle")),
+        title:
+        Text(
+          "Anos Castle",
+          textAlign: TextAlign.center,
+          style: TextStyle(color: Colors.white,
+          ),
+          )
       ),
       body:Center(
         child: Container(

@@ -34,6 +34,17 @@ class MyDrawer extends StatelessWidget {
             ),),
           ),
           ListTile(
+            leading: Icon(
+              CupertinoIcons.profile_circled,
+              color: Colors.black,
+            ),
+            title: Text("Appraisal Mirror",
+              textScaleFactor: 1.2,
+              style: TextStyle(
+                color: Colors.black,
+              ),),
+          ),
+          ListTile(
             leading: Icon(CupertinoIcons.alarm,
               color: Colors.black,
             ),
